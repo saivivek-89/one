@@ -716,7 +716,7 @@
             </div>
         </div>
 
-        <div style="text-align:center;margin-top:22px;color:var(--muted);font-size:13px">© <span id="year"></span> NexusShop. All rights reserved.</div>
+        <div style="text-align:center;margin-top:22px;color:var(--muted);font-size:13px">© <span id="year"></span> SV Retail. All rights reserved.</div>
     </footer>
 
     <script>
