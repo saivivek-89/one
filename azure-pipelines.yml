@@ -7,9 +7,9 @@ pool:
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
-
 - task: Maven@4
   inputs:
+    azureSubscription: 'Azure subscription 1(193ea9b9-1cfd-4f20-b283-026be637c7ab)'
     mavenPomFile: 'pom.xml'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
